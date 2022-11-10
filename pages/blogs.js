@@ -8,7 +8,7 @@ import Script from "next/script"
 import { useEffect } from 'react';
 import imageUrlBuilder from '@sanity/image-url'
 import Link from 'next/link'
-import NavBar from '../components/NavBar';
+import NavBar from '../components/navbar';
 
 const Blogs = ({blogs, profile}) => {
     const client = createClient({
