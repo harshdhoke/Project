@@ -1,4 +1,13 @@
 import React from 'react'
+import Head from 'next/head'
+import Image from 'next/image'
+import styles from '../styles/Home.module.css'
+import { createClient } from "next-sanity";
+import PortableText from "react-portable-text"
+import Script from "next/script"
+import { useEffect } from 'react';
+import imageUrlBuilder from '@sanity/image-url'
+import Link from 'next/link'
 
 const NavBar = ({profile}) => { 
   
